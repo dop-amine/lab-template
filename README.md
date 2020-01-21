@@ -1,6 +1,6 @@
 ## Overview
 
-The Lab is a customizable template used to create, deploy and manage servers on AWS EC2 and your local machine. It supports multiple servers and environments with the use of variables.
+The Lab is a customizable Ansible playbook used to create, deploy and manage servers on AWS EC2 and your local machine. It supports multiple servers and environments with the use of variables.
 
 ## Stack
 
