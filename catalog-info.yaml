@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lab-template
+  title: Lab Template
+  description: >-
+    An Ansible playbook for creating and managing Rails servers on AWS EC2 and
+    locally — Ubuntu 18.04, RVM, Apache/Passenger, MySQL and Solr. Last
+    touched in 2020 and superseded by observatory; kept for reference, not for
+    use.
+  annotations:
+    github.com/project-slug: dop-amine/lab-template
+    dop-amine.com/tier: '3'
+spec:
+  type: infra
+  lifecycle: archived
+  owner: dop-amine
