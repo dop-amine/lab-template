@@ -1,4 +1,7 @@
-#skip_list:
+---
+# A config of only comments parses as null, which ansible-lint 6+ rejects
+# before linting anything. The explicit empty list keeps the file valid.
+skip_list: []
 #  - '204'
 #  - '305'
 #  - '601'
